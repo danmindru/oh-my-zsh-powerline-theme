@@ -69,7 +69,7 @@ if [ "$POWERLINE_GIT_DELETED" = "" ]; then
 fi
 
 if [ "$POWERLINE_GIT_UNTRACKED" = "" ]; then
-  POWERLINE_GIT_UNTRACKED="%F{yellow}✭%F{black}"
+  POWERLINE_GIT_UNTRACKED="%F{red}✭%F{black}"
 fi
 
 if [ "$POWERLINE_GIT_RENAMED" = "" ]; then
